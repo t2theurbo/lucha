@@ -35,11 +35,6 @@ footer {
     margin: 50px 0;
 }
 
-@font-face {
-  font-family: 'MATADOR_';
-  src: url('./MATADOR_.ttf');
-}
-
 .navbar-inverse {
     background-color: transparent;
     border-color: transparent;
@@ -49,5 +44,14 @@ footer {
     color: white;
     font-size: 50px;
     margin-top: 30px;
-    font-family: 'MATADOR_';
+    font-family: 'matadorregular';
+}
+
+@font-face {
+    font-family: 'matadorregular';
+    src: url('matador_-webfont.woff2') format('woff2'),
+         url('matador_-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
