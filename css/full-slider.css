@@ -37,7 +37,7 @@ footer {
 
 @font-face {
   font-family: 'MATADOR_';
-  src: url('./fonts/MATADOR_.ttf');
+  src: url('~/fonts/MATADOR_.ttf');
 }
 
 .navbar-inverse {
